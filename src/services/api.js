@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Prefer environment variable set in frontend/.env, otherwise fallback to the known deployed backend
-const DEFAULT_REMOTE = 'https://roxiler-systems-backend-bu80.onrender.com/api';
+const DEFAULT_REMOTE = 'https://backend-1-wyni.onrender.com';
 const API_BASE_URL = process.env.REACT_APP_API_URL || DEFAULT_REMOTE;
 
 const api = axios.create({
